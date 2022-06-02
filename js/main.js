@@ -81,7 +81,7 @@
             setTimeout(function () {
                 document.getElementById("alertValidaciones").style.display="none";
             },
-                5000        
+                5000
             );//functionTimeOut
             return false;
         }//if
