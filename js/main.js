@@ -85,7 +85,8 @@
         
         datos.push(JSON.parse(elemento));
         localStorage.setItem("elementosTabla", JSON.stringify(datos));
-        // console.log(datos);
+
+        console.log(datos);
 
         let tmp= `<tr>
         <th scope="row">${contador}</th>
@@ -136,6 +137,4 @@ window.addEventListener("load", function(){
                     </tr>`;
                 });
            }//if elementosTabla
-    }
-    
-);
+});
